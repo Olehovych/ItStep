@@ -1,0 +1,263 @@
+body {
+    margin: 0px;
+    background-color: #F5F5F5;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: #FFFFFF;
+    align-items: center;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Menu */
+/* Menu */
+/* Menu */
+
+
+header .menu_top {
+    list-style-type: none;
+    justify-content: space-around;
+
+}
+
+header .menu_top li {
+    display: inline-block;
+    justify-content: center;
+    margin-right: 40px;
+    padding-left: 10px;
+}
+
+header .menu_top a {
+    color: #101928;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+header .menu_top a:hover {
+    color: #0060ff
+}
+
+header .menu_top .a strong {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Logo */
+/* Logo */
+/* Logo */
+
+
+header .logo {
+    font-style: normal;
+    align-items: center;
+    display: flex;
+    margin-left: 150px;
+    text-decoration: none;
+
+}
+
+.text-logo {
+    font-family: 'Roboto', sans-serif;
+    color: #545BE8;
+    font-size: 14px;
+    margin-left: 9px;
+}
+
+/* button */
+/* button */
+/* button */
+
+
+header .buttons {
+    margin-right: 140px;
+    display: flex;
+    gap: 24px;
+    font-family: 'Inter', sans-serif;
+
+
+}
+
+header .buttons>a {
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    border: 1px solid #545BE8;
+    width: 170px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .buttons .button-blue {
+    background-color: #545BE8;
+    color: #FFFFFF;
+
+}
+
+header .buttons .button-white {
+    color: #545BE8;
+}
+
+header .buttons .button-white:hover {
+    transition-duration: 0.8s;
+    background-color: #545BE8;
+    color: #fff;
+
+}
+
+/* Main */
+/* Main */
+/* Main */
+
+main {
+    display: grid;
+    grid: "header" 0px;
+}
+
+.photo {
+    margin-left: 807px;
+    margin-top: 119px;
+    margin-right: 148px;
+}
+
+p {
+    margin-top: 106px;
+    margin-left: 152px;
+    color: #545BE8;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+
+.info {
+    display: grid;
+
+}
+
+h1 {
+    margin-left: 150px;
+    margin-top: 16px;
+    font-size: 64px;
+    color: #141E32;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    color: #969696;
+    top: 24px;
+    margin-left: 152px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+
+}
+
+.button-blue2 {
+    background-color: #545BE8;
+    color: #FFFFFF;
+    width: 170px;
+    height: 48px;
+    border-radius: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    margin-top: 40px;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.item {
+    display: flex;
+    gap: 10px;
+}
+
+.play {
+    font-style: normal;
+    align-items: center;
+    display: flex;
+    margin-left: 42px;
+    margin-top: 40px;
+    text-decoration: none
+}
+
+.Video-text {
+    display: flex;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    align-items: center;
+    color: #141E32;
+    margin-top: 40px;
+}
+
+
+/* Item2 */
+/* Item2 */
+/* Item2 */
+.item-2 {
+    width: 100%;
+    height: 522px;
+}
+
+h3 {
+    font-size: 40px;
+    margin-top: 16px;
+    margin-left: 150px;
+    color: #141E32;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+.cards {
+    display:flex;
+    gap: 40px;
+}
+
+.teacher {
+    margin-left: 24px;
+    height: 267px;
+    width: 267px;
+    background-color: #545BE8;
+    border-radius: 10px;
+}
+
+.course {
+    height: 267px;
+    width: 267px;
+    background-color: #545BE8;
+    border-radius: 10px;
+}
+
+.learning {
+    height: 267px;
+    width: 267px;
+    background-color: #545BE8;
+    border-radius: 10px;
+}
+
+.teacher-icon{
+    margin-left: 27px;
+    margin-top: 55px;
+}
+.course-icon{
+    margin-left: 27px;
+    margin-top: 55px;
+}
+.learning-icon{
+    margin-left: 27px;
+    margin-top: 55px;   
+}
+.elips{
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    background-color: #E5E5E5;
+    margin-left: 27px;
+    margin-top: 55px; 
+}
